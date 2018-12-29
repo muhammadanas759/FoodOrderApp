@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_height="100dp"
+
+        android:layout_width="match_parent"
+        android:src="@drawable/logof">
+
+    </ImageView>>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+                <EditText
+                    android:id="@+id/name"
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textColorHint="@color/whilt"
+                    android:textColorLink="@color/whilt"
+                    android:hint="name"
+                    />
+
+                <EditText
+                    android:id="@+id/NIC"
+
+                    android:textColorHint="@color/whilt"
+                    android:textColorLink="@color/whilt"
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="NIC"
+
+                    />
+
+                <EditText
+                    android:id="@+id/phoneNo"
+
+                    android:textColorHint="@color/whilt"
+                    android:textColorLink="@color/whilt"
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:hint="phone number"
+                    />
+
+
+
+                <EditText
+                    android:id="@+id/email"
+
+                    android:textColorHint="@color/whilt"
+                    android:textColorLink="@color/whilt"
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:hint="email"
+                    />
+                <EditText
+                    android:id="@+id/password"
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+
+                    android:textColorHint="@color/whilt"
+                    android:textColorLink="@color/whilt"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:hint="password"
+                    />
+            <Button
+                android:id="@+id/sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="signup"
+                android:backgroundTint="@color/whilt"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

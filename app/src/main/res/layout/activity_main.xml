@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/androidback"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+>
+        <ImageView
+            android:src="@drawable/logof"
+            android:layout_height="115dp"
+            android:layout_width="150dp"
+            android:layout_marginLeft="250dp"
+            android:layout_gravity="left"
+></ImageView>
+
+    </LinearLayout><LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_alignParentBottom="true"
+    >
+    <Button
+        android:id="@+id/signin"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:text="signin"
+        android:textColor="@color/whilt"
+        android:background="@color/shadowColor"
+        ></Button>
+    <Button
+        android:id="@+id/signup"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:text="signup"
+        android:textColor="@color/whilt"
+        android:background="@color/shadowColor"
+
+        ></Button>
+
+</LinearLayout>>
+
+</RelativeLayout>

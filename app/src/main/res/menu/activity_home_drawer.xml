@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_orders_black_24dp"
+            android:title="Orders" />
+           </group>
+
+    <item android:title="to logout from App">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_lock_black_24dp"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

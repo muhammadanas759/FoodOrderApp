@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#494b64</color>
+    <color name="colorPrimaryDark">#12142d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="shadowColor">#6d72b4</color>
+    <color name="whilt">#ffffff</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="overlayBackgroud">#494b64</color>
+    <color name="overlayActionBar">#000000</color>
+
+
+</resources>
